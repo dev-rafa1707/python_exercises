@@ -5,7 +5,8 @@
 numeros = []
 
 for i in range(6):
-    numero = input('Informe um numero inteiro: ')
-    numero = numeros.append(numero)
+    numero = int(input('Informe um numero inteiro: '))
+    if numero % 2 == 0:
+        numero = numeros.append(numero)
 print(numeros)
 
