@@ -7,9 +7,7 @@ def somarPares():
     for i in range(6):
         numero = int(input('Informe um numero inteiro: '))
         if numero % 2 == 0:
-        # numero = numeros.append(numero)
             soma = soma + numero
-# print(numeros)
     return soma
 
 soma = print(somarPares())
