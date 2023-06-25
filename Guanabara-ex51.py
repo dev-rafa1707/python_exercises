@@ -4,16 +4,15 @@
 primeiroTermo = int(input("Informe o primeiro termo da PA: "))
 razao = int(input("Informe a razão da PA: "))
 
-print(primeiroTermo)
-print(razao)
-
-pa = []
-termo = primeiroTermo
-pa.append(termo)
-for i in range (9):
-    termo = termo + razao
+def PA10termos(primeiroTermo, razao):
+    pa = []
+    termo = primeiroTermo
     pa.append(termo)
+    for i in range (9):
+        termo = termo + razao
+        pa.append(termo)
+    return(pa)
 
-print(pa)
+teste = print(PA10termos(primeiroTermo,razao))
 
 
