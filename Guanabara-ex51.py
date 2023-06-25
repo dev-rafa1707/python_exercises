@@ -6,3 +6,14 @@ razao = int(input("Informe a razão da PA: "))
 
 print(primeiroTermo)
 print(razao)
+
+pa = []
+termo = primeiroTermo
+pa.append(termo)
+for i in range (9):
+    termo = termo + razao
+    pa.append(termo)
+
+print(pa)
+
+
