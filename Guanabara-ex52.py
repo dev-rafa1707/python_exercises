@@ -3,9 +3,7 @@
 
 
 def numeroPrimo(num):
-    num = int(input("Informe um número inteiro: "))
     count = 0
-
     for i in range(1,num+1):
         if num % i == 0:
             count += 1
@@ -15,4 +13,5 @@ def numeroPrimo(num):
         print("Número não é primo")
 
 
-teste = numeroPrimo(17)
+num = int(input("Informe um número inteiro: "))
+teste = numeroPrimo(num)
