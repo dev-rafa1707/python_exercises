@@ -9,5 +9,3 @@ def verificaPalindromo(string):
     else:
         return f'False'
     
-palavra = 'burro'
-print(verificaPalindromo(palavra))
