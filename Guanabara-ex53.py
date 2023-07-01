@@ -5,7 +5,9 @@ def verificaPalindromo(string):
     string = string
     stringInvertida = string[::-1]
     if string == stringInvertida:
-        return True
+        return f'True'
+    else:
+        return f'False'
     
 palavra = 'burro'
 print(verificaPalindromo(palavra))
